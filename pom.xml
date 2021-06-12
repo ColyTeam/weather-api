@@ -15,17 +15,11 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>GitHub ColyTeam Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/colyteam/weather-api</url>
+            <id>reposilite</id>
+            <name>Coly Reposilite</name>
+            <url>https://reposilite.coly.dev/releases</url>
         </repository>
     </distributionManagement>
-
-    <scm>
-        <connection>scm:git:https://github.com/colyteam/weather-api.git</connection>
-        <developerConnection>scm:git:https://github.com/colyteam/weather-api.git</developerConnection>
-        <url>https://github.com/colyteam/weather-api.git</url>
-    </scm>
 
     <dependencies>
         <dependency>
