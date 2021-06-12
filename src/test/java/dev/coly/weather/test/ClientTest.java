@@ -15,10 +15,10 @@ import java.io.IOException;
 public class ClientTest {
 
     private WeatherClient weatherClient;
-    private final String API_KEY = "79500252717c5f7c7287965ff1f1931f";
+    private final String API_KEY = System.getenv("API_KEY");
 
     public ClientTest(){
-        weatherClient = new WeatherClient("79500252717c5f7c7287965ff1f1931f");
+        weatherClient = new WeatherClient(API_KEY);
     }
 
     private WeatherClient getWeatherClient(){
